@@ -1,0 +1,164 @@
+_repo: Prefaces-and-Prologues-to-Famous-Bookswith-Introductions-Notes-and-Illustrations_13182
+_version: 0.1.0
+contributor:
+  contributors:
+  - agent_name: Fielding, Henry
+    aliases:
+    - Vinegar, Hercules
+    - Trottplaid, John
+    - Drawcansir, Alexander, Sir
+    - Keyber, Conny
+    - Gualterus, Petrus
+    birthdate: 1707
+    deathdate: 1754
+    gutenberg_agent_id: '537'
+    url: http://www.gutenberg.org/2009/agents/537
+    wikipedia: http://en.wikipedia.org/wiki/Henry_Fielding
+  - agent_name: Calvin, Jean
+    alias: Calvin, John
+    birthdate: 1509
+    deathdate: 1564
+    gutenberg_agent_id: '6425'
+    url: http://www.gutenberg.org/2009/agents/6425
+    wikipedia: http://en.wikipedia.org/wiki/John_Calvin
+  - agent_name: Johnson, Samuel
+    birthdate: 1709
+    deathdate: 1784
+    gutenberg_agent_id: '297'
+    url: http://www.gutenberg.org/2009/agents/297
+    wikipedia: http://en.wikipedia.org/wiki/Samuel_Johnson
+  - agent_name: Caxton, William
+    deathdate: 1491
+    gutenberg_agent_id: '3627'
+    url: http://www.gutenberg.org/2009/agents/3627
+    wikipedia: http://en.wikipedia.org/wiki/William_Caxton
+  - agent_name: Hugo, Victor
+    alias: Hugo, Victor Marie, comte
+    birthdate: 1802
+    deathdate: 1885
+    gutenberg_agent_id: '85'
+    url: http://www.gutenberg.org/2009/agents/85
+    wikipedia: http://en.wikipedia.org/wiki/Victor_Hugo
+  - agent_name: Taine, Hippolyte
+    aliases:
+    - Graindorge, Frederic-Thomas
+    - Taine, Hippolyte Adolphe
+    - Taine, H. A. (Hippolyte Adolphe)
+    - Graindorge, Frédéric-Thomas
+    birthdate: 1828
+    deathdate: 1893
+    gutenberg_agent_id: '969'
+    url: http://www.gutenberg.org/2009/agents/969
+    wikipedia:
+    - http://fr.wikipedia.org/wiki/Hippolyte_Taine
+    - http://en.wikipedia.org/wiki/Hippolyte_Taine
+  - agent_name: Dryden, John
+    birthdate: 1631
+    deathdate: 1700
+    gutenberg_agent_id: '807'
+    url: http://www.gutenberg.org/2009/agents/807
+    wikipedia: http://en.wikipedia.org/wiki/John_Dryden
+  - agent_name: Copernicus, Nicolaus
+    aliases:
+    - Copernicus, Nicholas
+    - Kopernikus, Nikolaus
+    birthdate: 1473
+    deathdate: 1543
+    gutenberg_agent_id: '6426'
+    url: http://www.gutenberg.org/2009/agents/6426
+    wikipedia: http://en.wikipedia.org/wiki/Nicolaus_Copernicus
+  - agent_name: Whitman, Walt
+    alias: Whitman, Walter
+    birthdate: 1819
+    deathdate: 1892
+    gutenberg_agent_id: '600'
+    url: http://www.gutenberg.org/2009/agents/600
+    wikipedia: http://en.wikipedia.org/wiki/Walt_Whitman
+  - agent_name: Heminge, John
+    deathdate: 1630
+    gutenberg_agent_id: '6428'
+    url: http://www.gutenberg.org/2009/agents/6428
+  - agent_name: Goethe, Johann Wolfgang von
+    aliases:
+    - Von Goethe, Johann Wolfgang
+    - Goethe, J. W. (Johann Wolfgang)
+    birthdate: 1749
+    deathdate: 1832
+    gutenberg_agent_id: '586'
+    url: http://www.gutenberg.org/2009/agents/586
+    wikipedia: http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe
+  - agent_name: Wordsworth, William
+    birthdate: 1770
+    deathdate: 1850
+    gutenberg_agent_id: '2879'
+    url: http://www.gutenberg.org/2009/agents/2879
+    wikipedia: http://en.wikipedia.org/wiki/William_Wordsworth
+  - agent_name: Spenser, Edmund
+    aliases:
+    - Spenser, Edmond
+    - Spencer, Edmund
+    - Immerito
+    birthdate: 1551
+    deathdate: 1599
+    gutenberg_agent_id: '2264'
+    url: http://www.gutenberg.org/2009/agents/2264
+    wikipedia: http://en.wikipedia.org/wiki/Edmund_Spenser
+  - agent_name: Newton, Isaac
+    alias: Newton, Sir Isaac
+    birthdate: 1642
+    deathdate: 1727
+    gutenberg_agent_id: '6288'
+    url: http://www.gutenberg.org/2009/agents/6288
+    wikipedia: http://en.wikipedia.org/wiki/Isaac_Newton
+  - agent_name: Knox, John
+    deathdate: 1572
+    gutenberg_agent_id: '3121'
+    url: http://www.gutenberg.org/2009/agents/3121
+    wikipedia: http://en.wikipedia.org/wiki/John_Knox
+  - agent_name: Bacon, Francis
+    aliases:
+    - St. Albans, Francis Bacon, Viscount
+    - Verulam, Francis Bacon
+    birthdate: 1561
+    deathdate: 1626
+    gutenberg_agent_id: '296'
+    url: http://www.gutenberg.org/2009/agents/296
+    wikipedia: http://en.wikipedia.org/wiki/Francis_Bacon
+  - agent_name: Condell, Henry
+    deathdate: 1627
+    gutenberg_agent_id: '6429'
+    url: http://www.gutenberg.org/2009/agents/6429
+    wikipedia: http://en.wikipedia.org/wiki/Henry_Condell
+  - agent_name: Raleigh, Walter
+    deathdate: 1618
+    gutenberg_agent_id: '3337'
+    url: http://www.gutenberg.org/2009/agents/3337
+    wikipedia: http://en.wikipedia.org/wiki/Walter_Raleigh
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  editor:
+    agent_name: Eliot, Charles William
+    birthdate: 1834
+    deathdate: 1926
+    gutenberg_agent_id: '6399'
+    url: http://www.gutenberg.org/2009/agents/6399
+    wikipedia: http://en.wikipedia.org/wiki/Charles_William_Eliot
+description: 'Series: Harvard Classics, Volume 39'
+gutenberg_bookshelf: Harvard Classics
+gutenberg_issued: '2004-08-15'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '13182'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'P'
+- !lcsh 'Prefaces'
+title: 'Prefaces and Prologues to Famous Books
+
+  with Introductions, Notes and Illustrations'
+url: http://www.gutenberg.org/ebooks/13182
