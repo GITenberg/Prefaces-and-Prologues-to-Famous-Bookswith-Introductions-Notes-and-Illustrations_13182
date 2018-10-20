@@ -1,115 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/13182">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N407cfa11ef2148e6b3e0ddf9ba41c755">
-        <rdf:value>P</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6425">
+        <pgterms:alias>Calvin, John</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1564</pgterms:deathdate>
+        <pgterms:name>Calvin, Jean</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Calvin"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N08f87165272849c4915e73f774cf46aa">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Harvard Classics</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/586">
-        <pgterms:alias>Von Goethe, Johann Wolfgang</pgterms:alias>
-        <pgterms:name>Goethe, Johann Wolfgang von</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1749</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</pgterms:deathdate>
-        <pgterms:alias>Goethe, J. W. (Johann Wolfgang)</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/3627">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Caxton"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</pgterms:deathdate>
-        <pgterms:name>Caxton, William</pgterms:name>
-      </pgterms:agent>
-    </marcrel:ctb>
+    </pgterms:bookshelf>
     <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/6288">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1727</pgterms:deathdate>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1642</pgterms:birthdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Isaac_Newton"/>
-        <pgterms:name>Newton, Isaac, Sir</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1727</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/3121">
-        <pgterms:name>Knox, John</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1572</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Knox"/>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</pgterms:downloads>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/296">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</pgterms:birthdate>
-        <pgterms:alias>Verulam, Francis Bacon</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Francis_Bacon"/>
-        <pgterms:alias>St. Albans, Francis Bacon, Viscount</pgterms:alias>
-        <pgterms:name>Bacon, Francis</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1626</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/600">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</pgterms:deathdate>
-        <pgterms:alias>Whitman, Walter</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Walt_Whitman"/>
-        <pgterms:name>Whitman, Walt</pgterms:name>
+        <pgterms:name>Newton, Isaac</pgterms:name>
+        <pgterms:alias>Newton, Sir Isaac</pgterms:alias>
       </pgterms:agent>
     </marcrel:ctb>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N350f3875044f43c5bf797e2be0825be7">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      <rdf:Description rdf:nodeID="N5c530556c62e481f8af0db4fa9fd1ae9">
         <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.html.gen">
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1058310</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc642a0d2946e4a09a1731dce022306e8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:47:31.426614</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6429">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1627</pgterms:deathdate>
-        <pgterms:name>Condell, Henry</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Henry_Condell"/>
+      <pgterms:agent rdf:about="2009/agents/586">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</pgterms:deathdate>
+        <pgterms:name>Goethe, Johann Wolfgang von</pgterms:name>
+        <pgterms:alias>Goethe, J. W. (Johann Wolfgang)</pgterms:alias>
+        <pgterms:alias>Von Goethe, Johann Wolfgang</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1749</pgterms:birthdate>
       </pgterms:agent>
     </marcrel:ctb>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nb6a30a9ad63446f194964b6bb271f7b5">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-15T17:07:58</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc0b26b45840449b59712d4a067cf69d9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036582</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</pgterms:downloads>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6429">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Henry_Condell"/>
+        <pgterms:name>Condell, Henry</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1627</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
     <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/3337">
         <pgterms:name>Raleigh, Walter</pgterms:name>
@@ -118,21 +65,176 @@
       </pgterms:agent>
     </marcrel:ctb>
     <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/297">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1784</pgterms:deathdate>
+        <pgterms:name>Johnson, Samuel</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1709</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Samuel_Johnson"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/2264">
+        <pgterms:name>Spenser, Edmund</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1551</pgterms:birthdate>
+        <pgterms:alias>Immerito</pgterms:alias>
+        <pgterms:alias>Spenser, Edmond</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1599</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Edmund_Spenser"/>
+        <pgterms:alias>Spencer, Edmund</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-21T11:26:52</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036620</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3e868188f93c4f59b133ad795105e662">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/807">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</pgterms:deathdate>
         <pgterms:name>Dryden, John</pgterms:name>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1631</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</pgterms:deathdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Dryden"/>
       </pgterms:agent>
     </marcrel:ctb>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:47:39.434604</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">618852</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:51.965394</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036658</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfd09f0cda8934e508df1a01eed697072">
+          <rdf:Description rdf:nodeID="Nf6d05e711a4943e9a8477af5163870df">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.html.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naf0e09a03c9f40b3a51251ef41ac18b7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075557</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:52.971416</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/969">
+        <pgterms:alias>Taine, H. A. (Hippolyte Adolphe)</pgterms:alias>
+        <pgterms:alias>Graindorge, Frederic-Thomas</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Hippolyte_Taine"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:birthdate>
+        <pgterms:name>Taine, Hippolyte</pgterms:name>
+        <pgterms:alias>Taine, Hippolyte Adolphe</pgterms:alias>
+        <pgterms:alias>Graindorge, Frédéric-Thomas</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Hippolyte_Taine"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/3627">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</pgterms:deathdate>
+        <pgterms:name>Caxton, William</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Caxton"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6428">
+        <pgterms:name>Heminge, John</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1630</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndda4519827304d0984e30d86de5ccffb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25157</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:10:00.792306</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/296">
+        <pgterms:alias>Verulam, Francis Bacon</pgterms:alias>
+        <pgterms:alias>St. Albans, Francis Bacon, Viscount</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1626</pgterms:deathdate>
+        <pgterms:name>Bacon, Francis</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Francis_Bacon"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:license rdf:resource="license"/>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/85">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Victor_Hugo"/>
+        <pgterms:alias>Hugo, Victor Marie, comte</pgterms:alias>
+        <pgterms:name>Hugo, Victor</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-15</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:53.395370</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427375</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6557ee63cc6f4dc1b5dab1de55e419d7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N078f57b753b643ee89d59885dcb58afa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392111</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N35bc6db5e97e4f3184638a7e7a5badaa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-21T11:27:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7618cd47ed5b4ba690e4696808103a01">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>P</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1701191</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:57.345310</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9f3f3477ad14427193283841dff8a9c7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -140,274 +242,208 @@
       </pgterms:file>
     </dcterms:hasFormat>
     <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/85">
-        <pgterms:alias>Hugo, Victor Marie, comte</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</pgterms:deathdate>
-        <pgterms:name>Hugo, Victor</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Victor_Hugo"/>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6425">
-        <pgterms:name>Calvin, Jean</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Calvin"/>
-        <pgterms:alias>Calvin, John</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1564</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N71214c20e91b4264b3cdd6ed585e7180">
-        <rdf:value>Prefaces</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">591734</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T12:27:59.980946</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne9f4089652214ebb9f58f9a08a481948">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6428">
-        <pgterms:name>Heminge, John</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1630</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/537">
-        <pgterms:name>Fielding, Henry</pgterms:name>
-        <pgterms:alias>Gualterus, Petrus</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1707</pgterms:birthdate>
-        <pgterms:alias>Vinegar, Hercules</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Henry_Fielding"/>
-        <pgterms:alias>Drawcansir, Alexander, Sir</pgterms:alias>
-        <pgterms:alias>Trottplaid, John</pgterms:alias>
-        <pgterms:alias>Keyber, Conny</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1754</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-15</dcterms:issued>
-    <dcterms:description>Series: Harvard Classics, Volume 39</dcterms:description>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/2264">
-        <pgterms:alias>Spenser, Edmond</pgterms:alias>
-        <pgterms:name>Spenser, Edmund</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Edmund_Spenser"/>
-        <pgterms:alias>Immerito</pgterms:alias>
-        <pgterms:alias>Spencer, Edmund</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1599</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1551</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T12:27:51.167769</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454392</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6731212e53034d3bac071782120a0242">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Prefaces and Prologues to Famous Books
-with Introductions, Notes and Illustrations</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182-8.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8e13994384ba4022b92a6eba04dde29c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392259</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-15T17:07:58</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf620cdb2b0a649a5aa1c40a723eefcd5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/969">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Hippolyte_Taine"/>
-        <pgterms:alias>Taine, H. A. (Hippolyte Adolphe)</pgterms:alias>
-        <pgterms:alias>Graindorge, Frederic-Thomas</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Hippolyte_Taine"/>
-        <pgterms:alias>Graindorge, Frédéric-Thomas</pgterms:alias>
-        <pgterms:alias>Taine, Hippolyte Adolphe</pgterms:alias>
-        <pgterms:name>Taine, Hippolyte</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/6399">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1926</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</pgterms:birthdate>
-        <pgterms:name>Eliot, Charles William</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_William_Eliot"/>
-      </pgterms:agent>
-    </marcrel:edt>
-    <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/6426">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1473</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Nicolaus_Copernicus"/>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1543</pgterms:deathdate>
-        <pgterms:alias>Copernicus, Nicholas</pgterms:alias>
-        <pgterms:alias>Kopernikus, Nikolaus</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Nicolaus_Copernicus"/>
         <pgterms:name>Copernicus, Nicolaus</pgterms:name>
+        <pgterms:alias>Kopernikus, Nikolaus</pgterms:alias>
+        <pgterms:alias>Copernicus, Nicholas</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1473</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/600">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Walt_Whitman"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</pgterms:deathdate>
+        <pgterms:name>Whitman, Walt</pgterms:name>
+        <pgterms:alias>Whitman, Walter</pgterms:alias>
       </pgterms:agent>
     </marcrel:ctb>
     <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/2879">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:deathdate>
         <pgterms:name>Wordsworth, William</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Wordsworth"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:deathdate>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1770</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Wordsworth"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/6399">
+        <pgterms:name>Eliot, Charles William</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1926</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_William_Eliot"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1701183</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd175a94a19ae42d3a8445d2ea8bab0b0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:45:00.758243</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/3121">
+        <pgterms:name>Knox, John</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1572</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Knox"/>
       </pgterms:agent>
     </marcrel:ctb>
     <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfc101571ac594cbfab75a69b0fe95a4d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075557</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:52.770385</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.epub.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N35d9c867fa974803baf8fe9f44a71bec">
+          <rdf:Description rdf:nodeID="Neb32a1d8f4fb42cebd576a64edb7061a">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:47:35.853163</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424859</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:44:53.626398</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427375</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1f4d735e9e374382aaf09b8696b8ac42">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N48f0ce1d7f874bbfa98844faf930ef5a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392095</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-15T17:07:58</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:description>Series: Harvard Classics, Volume 39</dcterms:description>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182-8.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-15T17:07:58</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0fb62cd7591045769efa78a4ff9e0b26">
+          <rdf:Description rdf:nodeID="Ne7eb5239f0fc48398cc9bb07bae74c41">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036552</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13182.txt.utf-8">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbb26e66db3c1474f97790f05cf44478f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:47:33.503509</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036620</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1036588</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-21T11:27:12</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ndb49fa7c71c140e0ba01f68980738fba">
+        <rdf:value>Prefaces</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:title>Prefaces and Prologues to Famous Books
+with Introductions, Notes and Illustrations</dcterms:title>
     <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/297">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1709</pgterms:birthdate>
-        <pgterms:name>Johnson, Samuel</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1784</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Samuel_Johnson"/>
+      <pgterms:agent rdf:about="2009/agents/537">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Henry_Fielding"/>
+        <pgterms:alias>Vinegar, Hercules</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1707</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1754</pgterms:deathdate>
+        <pgterms:alias>Gualterus, Petrus</pgterms:alias>
+        <pgterms:name>Fielding, Henry</pgterms:name>
+        <pgterms:alias>Keyber, Conny</pgterms:alias>
+        <pgterms:alias>Trottplaid, John</pgterms:alias>
+        <pgterms:alias>Drawcansir, Alexander, Sir</pgterms:alias>
       </pgterms:agent>
     </marcrel:ctb>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N41d78f5c562440939164bd22906ce151">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13182/13182-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4713f3595d234a67900d74f8c4b93cca">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd740df6dd1f04d13b7bf005655a37998">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392277</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-21T11:27:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13182"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nicolaus_Copernicus">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Henry_Fielding">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Isaac_Newton">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Samuel_Johnson">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Francis_Bacon">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_William_Eliot">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Dryden">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hippolyte_Taine">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hippolyte_Taine">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Victor_Hugo">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Henry_Condell">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Dryden">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/William_Caxton">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Hippolyte_Taine">
-    <dcterms:description>fr.wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Samuel_Johnson">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/William_Wordsworth">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Calvin">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Henry_Fielding">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Walt_Whitman">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Knox">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Walt_Whitman">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Isaac_Newton">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_William_Eliot">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/William_Wordsworth">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Calvin">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Walter_Raleigh">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Victor_Hugo">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Edmund_Spenser">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Edmund_Spenser">
+  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Hippolyte_Taine">
+    <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nicolaus_Copernicus">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>

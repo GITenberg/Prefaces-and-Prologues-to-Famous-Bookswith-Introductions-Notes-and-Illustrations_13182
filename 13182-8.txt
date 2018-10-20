@@ -7,12 +7,13 @@ re-use it under the terms of the Project Gutenberg License included
 with this eBook or online at www.gutenberg.net
 
 
-Title: Prefaces and Prologues to Famous Books 
+Title: Prefaces and Prologues to Famous Books
        with Introductions, Notes and Illustrations
 
 Author: Charles W. Eliot
 
 Release Date: August 15, 2004 [EBook #13182]
+Last Updated: March 21, 2018
 
 Language: English
 
@@ -7137,7 +7138,7 @@ The etymology, so far as it is yet known, was easily found in the
 volumes, where it is particularly and professedly delivered, and, by
 proper attention to the rules of derivation, the orthography was
 soon adjusted. But to COLLECT THE WORDS of our language was a task
-of greater difficulty the deficiency of dictionaries was immediately
+of greater difficulty. The deficiency of dictionaries was immediately
 apparent, and when they were exhausted, what was yet wanting must be
 sought by fortuitous and unguided excursions into books and gleaned
 as industry should find, or chance should offer it, in the boundless
@@ -7466,7 +7467,7 @@ be formed adequate to all the purposes of use and elegance. If the
 language of theology were extracted from Hooker and the translation of
 the Bible, the terms of natural knowledge from Bacon, the phrases of
 policy, war, and navigation from Raleigh, the dialect of poetry and
-fiction from Spender and Sidney, and the diction of common life from
+fiction from Spenser and Sidney, and the diction of common life from
 Shakespeare, few ideas would be lost to mankind, for want of English
 words in which they might be expressed.
 
@@ -8484,7 +8485,7 @@ The truth is, that the spectators are always in their senses, and
 know, from the first act to the last, that the stage is only a stage,
 and that the players are only players. They came to hear a certain
 number of lines recited with just gesture and elegant modulation. The
-lines relate to some action, and an action must he in some place;
+lines relate to some action, and an action must be in some place;
 but the different actions that complete a story may be in places very
 remote from each other; and where is the absurdity of allowing that
 space to represent first _Athens_, and then _Sicily_, which was always
@@ -9255,7 +9256,7 @@ recollection.
 They have all been treated by me with candour, which they have not
 been careful of observing to one another. It is not easy to discover
 from what cause the acrimony of a scholiast can naturally proceed.
-The subjects to be discussed by him are of very email importance; they
+The subjects to be discussed by him are of very small importance; they
 involve neither property nor liberty; nor favour the interest of
 sect or party. The various readings of copies, and different
 interpretations of a passage, seem to be questions that might exercise
@@ -9341,7 +9342,7 @@ candidate of criticism to discover the rest.
 
 To the end of most plays, I have added short strictures, containing
 a general censure of faults, or praise of excellence; in which I know
-not how much I have concurred with the current opinion; tut I have
+not how much I have concurred with the current opinion; but I have
 not, by any affectation of singularity, deviated from it. Nothing
 is minutely and particularly examined, and therefore it is to be
 supposed, that in the plays which are condemned there is much to be
@@ -9595,7 +9596,7 @@ Parts are not to be examined till the whole has been surveyed; there
 is a kind of intellectual remoteness necessary for the comprehension
 of any great work in its full design and its true proportions; a close
 approach shews the smaller niceties, but the beauty of the whole is
-discerned no longer It is not very grateful to consider how little the
+discerned no longer. It is not very grateful to consider how little the
 succession of editors has added to this authour's power of pleasing.
 He was read, admired, studied, and imitated, while he was yet
 deformed with all the improprieties which ignorance and neglect could
@@ -12831,7 +12832,7 @@ either such as startle the world into attention by their audacity and
 extravagance; or they are chiefly of a superficial kind, lying upon
 the surfaces of manners; or arising out of a selection and arrangement
 of incidents, by which the mind is kept upon the stretch of curiosity,
-and the fancy amused without the trouble of thought. But In everything
+and the fancy amused without the trouble of thought. But in everything
 which is to send the soul into herself, to be admonished of her
 weakness, or to be made conscious of her power;--wherever life and
 nature are described as operated upon by the creative or abstracting
@@ -13029,7 +13030,7 @@ application of his words, saying with the Spanish fablist:--
 In truth, several of the leading champions of "sound literary
 doctrines" have done him the honour to throw the gauntlet to him, even
 in his profound obscurity--to him, a simple, imperceptible spectator
-of this curious contest He will not have the presumption to pick it
+of this curious contest. He will not have the presumption to pick it
 up. In the following pages will be found the observations with which
 he might oppose them--there will be found his sling and his stone;
 but others, if they choose, may hurl them at the head of the classical
@@ -13332,7 +13333,7 @@ Upon my word!"
 These arguments are sound, doubtless, and, above all, of extraordinary
 novelty. But it is not our place to reply to them. We are constructing
 no system here--God protect us from systems! We are stating a fact. We
-are a his torian, not a critic. Whether the fact is agreeable or not
+are a historian, not a critic. Whether the fact is agreeable or not
 matters little, it is a fact. Let us resume, therefore, and try
 to prove that it is of the fruitful union of the grotesque and the
 sublime types that modern genius is born--so complex, so diverse in
@@ -13661,7 +13662,7 @@ of that gigantic monument, he wrote with his pen of bronze: _Divina
 Commedia._
 
 Thus we see that the only two poets of modern times who are of
-Shakespeare's stature follow him in unity of design They coincide with
+Shakespeare's stature follow him in unity of design. They coincide with
 him in imparting a dramatic tinge to all our poetry, like him, they
 blend the grotesque with the sublime, and, far from standing
 by themselves in the great literary _ensemble_ that rests upon
@@ -14470,7 +14471,7 @@ convenient for him, no doubt, and very clever, to rest his book on his
 preface, and to defend each by the other. He prefers less cleverness
 and more frankness. He proposes, therefore, to be the first to point
 out the extreme tenuity of the thread connecting this preface with his
-drama His first plan, dictated by his laziness, was to give the work
+drama. His first plan, dictated by his laziness, was to give the work
 to the public entirely unattended _el demonio sin las cuernas_, as
 Yriarte said It was only after he had duly brought it to a close, that
 at the solicitations of a few friends, blinded by their friendship, no
@@ -14478,7 +14479,7 @@ doubt, he determined to reckon with himself in a preface--to draw, so
 to speak, a map of the poetic voyage he had made, to take account of
 the acquisitions, good or bad, that he had brought home, and of the
 new aspects in which the domain of art had presented itself to his
-mind Someone will take advantage of this admission, doubtless to
+mind. Someone will take advantage of this admission, doubtless to
 repeat the reproach already uttered by a critic in Germany, that
 he has written "a treatise in defence of his poetry." What does it
 matter? In the first place he was much more inclined to demolish
@@ -14489,11 +14490,11 @@ to create nor the presumption to put forth systems "Systems," cleverly
 said Voltaire, "are like rats which pass through twenty holes, only to
 find at last two or three which will not let them through." It would
 have been, therefore, to undertake a useless task and one much beyond
-his strength What he has pleaded, on the contrary, is the freedom of
+his strength. What he has pleaded, on the contrary, is the freedom of
 art against the despotism of systems, codes and rules It is his habit
 to follow at all risks whatever he takes for his inspiration, and to
 change moulds as often as he changes metals. Dogmatism in the arts is
-what he shuns before everything God forbid that he should aspire to
+what he shuns before everything. God forbid that he should aspire to
 be numbered among those men, be they romanticists or classicists, who
 compose _works according to their own systems_, who condemn themselves
 to have but one form in their minds, to be forever _proving_
